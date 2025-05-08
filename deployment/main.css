@@ -1,0 +1,497 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Jersey+25&family=Playwrite+CO+Guides&family=Playwrite+ES+Deco+Guides&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Rubik+Mono+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Jersey+25&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playwrite+CO+Guides&family=Playwrite+ES+Deco+Guides&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Rubik+Mono+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.section1 {
+     height: 80px;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     padding: 0 20px;
+     background-color: black;
+     color: #FFFFFF;
+     
+}
+.underline{
+    color:rgb(157, 98, 202)
+}
+.part1 {
+    display: flex;
+    align-items: center;
+    gap: 10px; 
+}
+
+#main_logo{
+    height: 70px;
+    width: 70px;
+    border: 2px solid transparent;
+    border-radius: 50%;
+}
+#upper{
+    font-size: 30px;
+    font-weight: 500;
+    font-family: fantasy;
+}
+#lower{
+    font-size: 17px;
+    font-weight: 100;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    padding: 0;
+    margin: 0;
+    align-items: center;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 14px;
+    color: #FFFFFF;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+} 
+
+ nav ul li a:hover{
+    
+    color: rgb(157, 98, 202);
+    transition-duration: 0.5s;
+
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* .dropbtn {
+    text-decoration: none;
+    font-size: 18px;
+    color: #FFFFFF;
+} */
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: black;
+   
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: #FFFFFF;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.hero-img{
+    height: 500px;
+    background-image: url(hero.jpg);
+    background-size: cover;
+}
+#hero-img-text{
+    font-size: 40px;
+    font-weight: 400;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #FFFFFF;
+    padding-top: 140px;
+    padding-left: 40px;
+
+}
+.about-site{
+    width: 700px;
+    border: 2px solid transparent;
+    padding-left: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    line-height: 1.5;
+    font-size: 20px;
+}
+.section4 span{
+    color: rgb(75, 75, 189);
+    text-decoration: underline;
+}
+.quote p{
+    font-size: 40px;
+    padding-left: 400px;
+    font-weight: 500;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:rgb(157, 98, 202);
+}
+.about-site-pics{
+    width: 500px;
+    height: 300px;
+    border: 2px solid black;
+    background-image: url(about-text-img.jpg);
+    background-size: cover;
+}
+.section4{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#work{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+    font-weight: 400;
+    text-align: center;
+    color:rgb(157, 98, 202);
+}
+.slider{
+    background-image: url(feedback.jpg);
+    background-size: cover;
+    height: 350px;
+    width: 850px;
+    border: 2px solid transparent;
+    margin-left: 350px;
+    animation: slide 10s linear infinite;
+}
+@keyframes slide{
+    0%{
+        background-image: url(feed.jpg);
+       
+    }
+    50%{
+        background-image: url(poll.jpg);
+       
+    }
+    100%{
+        background-image: url(dis.jpg);
+       
+    }
+  
+}
+.section6{
+    height: 100px;
+    background-color: black;
+    padding-left: 70px;
+    padding-top: 20px;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.copy p{
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+}
+.feed-hero-img{
+    height: 480px;
+    background-image: url(feedht.jpg);
+    background-size: cover;
+
+}
+.form{
+    padding-left: 30px;
+}
+form h1{
+    color:rgb(157, 98, 202);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#feed1{
+    height: 40px;
+    width: 300px;
+    border: 2px solid rgb(157, 98, 202);
+
+}
+i:hover{
+    color: rgb(157, 98, 202);
+
+}
+.contact-hero{
+    height: 480px;
+    background-image: url(contac.jpg);
+    background-size: cover;
+}
+.contact-line p{
+    font-size: 30px;
+    font-weight: 300;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    padding-top: 15px;
+    color:  rgb(157, 98, 202);
+    animation: colorChange 5s linear infinite;
+}
+
+@keyframes colorChange{
+    0%{
+        color:  rgb(157, 98, 202);
+    }
+    33%{
+        color: rgb(54, 18, 82);
+    }
+    66%{
+        color:  rgb(159, 167, 16);
+    }
+    100%{
+        color:rgb(112, 201, 35);
+    }
+}
+.person-photo{
+    height: 200px;
+    width: 200px;
+  
+    border: 2px solid transparent;
+    border-radius: 50%;
+}
+.photo1{
+    background-image: url(suraj.jpg);
+    background-size: cover;
+}
+.photo3{
+    background-image: url(tanishq.jpg);
+    background-size: cover;
+}
+.photo2{
+    background-image: url(myphoto.jpg);
+    background-size: cover;
+}
+.photo4{
+    background-image: url(abhijit.jpg);
+    background-size: cover;
+}
+.about{
+    height: 250px;
+    width: 300px;
+    border: 2px solid transparent;
+    padding-top: 40px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 1.2;
+}
+.person{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    height: 300px;
+    width: 1000px;
+    border: 0px solid black;
+    margin-left: 250px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px 3px #888888;
+
+}
+.person1{
+    margin-top: 15px;
+}
+.person2{
+    margin-top: 15px;
+}
+.person3{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.name span{
+    font-weight: bold;
+} 
+
+/*disability form*/
+
+.form-head{
+    text-align: center;
+    font-family: "Open Sans", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color:blue;
+    font-size: 60px;
+}
+::placeholder {
+    color: green;
+    opacity: 1; /* Firefox */
+  }
+  
+::-ms-input-placeholder { /* Edge 12 -18 */
+    color: white;
+  }
+input[type="text"]{
+    padding: 15px;
+    width: 80%;
+    border-radius: 15px;
+    border: 2px solid blue;
+    box-sizing: border-box;
+    box-shadow: 0 0 5px inset;
+    background-color: transparent;
+    font-size: 20px;
+    transition-duration: 500ms;
+}
+input[type="text"]:focus{
+    outline: none;
+    border:2px solid aqua;
+}
+#password{
+    margin-top: 50px;
+}
+#rmcheck{
+    margin-left: 30px;
+}
+.sub-controls{
+    margin-top: 40px;
+    width:72%;
+    color: white;
+    text-align: left;
+    display: inline-block;
+    font-family: sans-serif;
+}
+.form-text{
+    color: white;
+    display: inline-block;
+    font-family: sans-serif;
+    transition-duration: 500ms;
+    cursor: pointer;
+}
+.form-text:hover{
+    color: aqua;
+}
+
+.checkbx
+{
+    border: 1px solid black;
+    width: 80%;
+    padding: 10px;
+    margin: 5px 5px;
+    border-radius: 5px;
+}
+.btn{
+    margin-top:40px;
+    padding: 25px;
+    width: 85%;
+    background-color: rgb(0, 191, 45);
+    border:none;
+    font-size: 25px;
+    color: white;
+    border-radius: 20px;
+    transition-duration: 500ms;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: #0aa62e;
+}
+.container{
+    height: 600px;
+    width: 600px;
+    background-color: rgba(165, 245, 245, 0.5);
+    margin:100px auto 0 auto;
+    border-radius: 25px;
+    text-align: center;
+}
+
+
+
+body.dark-mode {
+    background-color: #121212;
+    color: #FFFFFF;
+}
+
+body.dark-mode .section1 {
+    background-color: #1e1e1e;
+}
+
+body.dark-mode nav ul li a {
+    color: #FFFFFF;
+}
+
+body.dark-mode .dropdown-content {
+    background-color: #333333;
+}
+
+body.dark-mode .dropdown-content a {
+    color: #FFFFFF;
+}
+
+body.dark-mode .dropdown-content a:hover {
+    background-color: #444444;
+}
+.btn-tog {
+    background-color: #f1f1f1;
+    border: none;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn-tog i {
+    color: #333;
+    font-size: 16px;
+}
+
+.btn-tog:hover {
+    background-color: #e1e1e1;
+}
+
+body.dark-mode .btn-tog {
+    background-color: #333;
+}
+
+body.dark-mode .btn-tog i {
+    color: #f1f1f1;
+}
+.row1{
+    height: 400px;
+    width: 1200px;
+    border: 2px solid transparent;
+    margin-left: 150px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 3px 3px 3px 3px #c8c5c5;
+    border-radius: 6px;
+}
+.codeRit{
+    height: 350px;
+    width: 300px;
+    border: 2px solid transparent;
+    margin-left: 16px;
+    box-shadow: 3px 3px 3px 3px #bab6b6;
+    border-radius: 6px;
+   
+
+}
+.cod-logo{
+    height: 140px;
+    width: 140px;
+    border: 1px solid black;
+    /* background-image: url(code.png);
+    background-size: cover; */
+    margin-top: 50px;
+    margin-left: 70px;
+    border-radius: 50%; 
+}
+.cod-abt{
+    height: 100px;
+    width: 200px;
+    border: 2px solid transparent;
+    padding-top: 40px;
+    padding-left: 100px;
+    text-decoration: none;
+}
+.cod-abt a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 400;
+}

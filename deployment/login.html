@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+  <link rel="shortcut icon" href="image/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Campus hacks</title>
+</head>
+<body>
+  <div class="mask"></div>
+  <nav>
+    <div class="logo">
+      <img src="image/logo.jpeg" alt="logo">
+      <div class="text">
+        <h4>Wellnest</h4>
+      <h6>Finding solutions infinity</h6>
+      </div>
+    </div>
+    <div class="menu" tabindex="0">
+      <svg xmlns="http://www.w3.org/2000/svg" height="75px" viewBox="0 -960 960 960" width="75px"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg>
+    </div>
+    <ul class="nav-links">
+      <li class="list"><a href="home.html">Home</a></li>
+      <li class="list">
+        <a href="#" tabindex="0" id="issues">Issues we solve</a>
+        <div class="tooltip-con">
+          <a href="issue1">Disabilities</a>
+        <a href="issue2">Super Links</a>
+        </div>
+      </li>
+      <li class="list"><a href="contact.html">Contact</a></li>
+      <li class="list"><a href="feedback">Feedback</a></li>
+      <li class="list"><a href="login" id="active">Login</a></li>
+      <li class="list" id="mode_change"><a href="#switch">
+        <label class="switch">
+          <input type="checkbox">
+          <span class="slider round"></span>
+        </label>
+      </a></li>
+    </ul>
+
+  </nav>
+  <form action="#">
+    <div class="container">
+      <h1 class="form-head">Login</h1>
+      <div class="controls">
+          <input type="text" placeholder="Username" id="username">
+          <input type="password" placeholder="Password" id="password">
+      </div>
+      <!-- <div class="sub-controls">
+        <input type="checkbox" name="remember" id="rmcheck">
+        <label for="rmcheck">Remember Me</label>
+      </div>
+      <span class="form-text">Forgot password?</span> -->
+      <button class="btn">Login</button>
+    </div>
+  </form>
+  <footer>
+    <h3>Connect with us...</h3>
+    <div class="icons">
+      <i class="fa fa-instagram"></i>
+      <i class="fa fa-youtube-play"></i>
+      <i class="fa fa-linkedin"></i>
+      <i class="fa fa-twitter"></i>
+    </div>
+    <span class="text-center">Copyright &copy; 2024</span>
+  </footer>
+  <script src="main.js"></script>
+</body>
+</html>

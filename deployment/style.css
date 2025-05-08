@@ -1,0 +1,384 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Jersey+25&family=Playwrite+CO+Guides&family=Playwrite+ES+Deco+Guides&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Rubik+Mono+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Jersey+25&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playwrite+CO+Guides&family=Playwrite+ES+Deco+Guides&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Rubik+Mono+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+.dark .container{
+    background-color: rgba(15, 15, 15, 0.5);
+}
+body{
+    margin: 0;
+    background-image: url(image/backImg2.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+nav{
+    background-color: #000;
+    color: white;
+    height: 100px;
+}
+.logo{
+    width: 22rem;
+    height: 132px;
+}
+.nav-links{
+    float: right;
+    list-style-type: none;
+    position: relative;
+    top:-118px;
+}
+.nav-links .list{
+    display: inline;
+    margin-right: 10px;
+    padding: 18px;
+    font-size: 23px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.nav-links .list a:hover{
+   color: aqua;
+}
+#active{
+    color:aqua;
+}
+.nav-links .list a{
+    text-decoration: none;
+    color: white;
+    transition-duration: 500ms;
+}
+.text{
+    display: inline-block;
+    height: 132px;
+    margin-top: -12px;
+}
+.logo h4{
+    font-size: 32px;
+    font-family: fantasy;
+  font-weight: 800;
+}   
+.logo h6{
+    font-size:19px;
+    font-weight: 100;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: relative;
+    top:-49px;
+}
+.logo img{
+    display: inline-block;
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    position: relative;
+    top:-38px;
+}
+/* mask css */
+.mask{
+    position: absolute;
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+    background-color: #000;
+    opacity: 0.5;
+}
+/* Form css */
+.container{
+    height: 500px;
+    width: 600px;
+    background-color: rgba(255, 255, 255, 0.7);
+    margin:100px auto 0 auto;
+    border-radius: 25px;
+    text-align: center;
+}
+.form-head{
+    text-align: center;
+    font-family: "Open Sans", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color:white;
+    font-size: 60px;
+}
+::placeholder {
+    color: darkgreen;
+    opacity: 1; /* Firefox */
+  }
+  
+  ::-ms-input-placeholder { /* Edge 12 -18 */
+    color: white;
+  }
+input[type="text"],input[type="password"]{
+    padding: 15px;
+    width: 80%;
+    border-radius: 15px;
+    border: 2px solid lightblue;
+    box-sizing: border-box;
+    background-color: transparent;
+    font-size: 20px;
+    transition-duration: 500ms;
+}
+input[type="text"]:focus,input[type="password"]:focus{
+    outline: none;
+    border:2px solid aqua;
+}
+#password{
+    margin-top: 50px;
+}
+#rmcheck{
+    margin-left: 30px;
+}
+.sub-controls{
+    margin-top: 40px;
+    width:72%;
+    color: white;
+    text-align: left;
+    display: inline-block;
+    font-family: sans-serif;
+}
+.form-text{
+    color: white;
+    display: inline-block;
+    font-family: sans-serif;
+    transition-duration: 500ms;
+    cursor: pointer;
+}
+.form-text:hover{
+    color: aqua;
+}
+.btn{
+    margin-top:40px;
+    padding: 25px;
+    width: 85%;
+    background-color: rgb(50, 168, 82);
+    border:none;
+    font-size: 25px;
+    color: white;
+    border-radius: 20px;
+    transition-duration: 500ms;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: #41d167;
+}
+footer{
+    height: 120px;
+    background-color: #000;
+    color: white;
+    text-align: center;
+    margin-top:113px;
+}
+footer h3{
+    margin-left: 25px;
+    font-family: "Poppins", serif;
+    font-weight: 900;
+    position: relative;
+    text-align: left;
+    top:30px;
+}
+.icons{
+    margin-top: 35px;
+    margin-left: 15px;
+    text-align: left;
+}
+.icons i {
+    font-size: 30px;
+    color: white;
+    margin-left: 8px;
+    cursor: pointer;
+    transition-duration: 500ms;
+}
+.icons i:hover{
+    color: rgb(157, 98, 202);
+}
+.text-center{
+    font-family: monospace;
+    font-size: 20px;
+}
+/* Menu */
+.menu{
+    display: none;
+    cursor: pointer;
+    float: right;
+}
+.menu svg{
+    position: relative;
+    fill: white;
+    top:25px;
+    transition-duration: 500ms;
+}
+.menu:hover svg{
+    fill: aqua;
+}
+/* Animations */
+@keyframes fadeIn {
+    0%{opacity: 0;}
+    100%{opacity: 1;}
+}
+/* Switch */
+/* The switch - the box around the slider */
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+  }
+  
+  /* Hide default HTML checkbox */
+  .switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  /* The slider */
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  input:checked + .slider {
+    background-color: #2196F3;
+  }
+  
+  input:focus + .slider {
+    box-shadow: 0 0 1px #2196F3;
+  }
+  
+  input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+  }
+  
+  /* Rounded sliders */
+  .slider.round {
+    border-radius: 34px;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+  }
+  /* tooltip */
+.tooltip-con{
+    position: absolute;
+    padding: 8px;
+    display: none;
+    z-index: 1;
+    margin-left: 24%;
+}
+.tooltip-con a{
+    display: block;
+    padding: 8px;
+    background-color: #000;
+}
+.tooltip-con a:hover{
+    background-color: #eee;
+}
+/* Media queries */
+.disp{
+    display: block;
+}
+@media only screen and (max-width: 1200px) {
+    .nav-links .list{
+        font-size: 18px;
+    }
+}
+@media only screen and (max-width: 992px) {
+    .container{
+        width: 600px;
+       }
+        .form-head{
+            font-size:55px;
+        }
+        .logo{
+        display: inline-block;
+       }
+        .menu{
+            display: inline-block;
+        }
+        .nav-links{
+            float: none;
+            display: block;
+        }
+        .nav-links .list{
+            display: none;
+            background-color: #000;
+            position: relative;
+            top:55px;
+            animation: fadeIn 500ms linear;
+        }
+        /* .menu:focus+.nav-links .list{
+            display: block;
+        } */
+}
+@media only screen and (max-width: 768px) {
+    .container{
+        width: 400px;
+       }
+        .form-head{
+            font-size: 45px;
+        }
+        .logo{
+        display: inline-block;
+       }
+        .menu{
+            display: inline-block;
+        }
+        .nav-links{
+            float: none;
+            display: block;
+        }
+        .nav-links .list{
+            display: none;
+            background-color: #000;
+            position: relative;
+            top:55px;
+            animation: fadeIn 500ms linear;
+        }
+        /* .menu:focus+.nav-links .list{
+            display: block;
+        } */
+}
+
+@media only screen and (max-width: 600px) {
+   .container{
+    width: 400px;
+   }
+    .form-head{
+        font-size: 45px;
+    }
+    .logo{
+    display: inline-block;
+   }
+    .menu{
+        display: inline-block;
+    }
+    .nav-links{
+        float: none;
+        display: block;
+    }
+    .nav-links .list{
+        display: none;
+        background-color: #000;
+        position: relative;
+        top:55px;
+        animation: fadeIn 500ms linear;
+    }
+    /* .menu:focus+.nav-links .list{
+        display: block;
+    } */
+}

@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>WellNest</title>
+</head>
+<body>
+    <!--section 1-->
+    <div class="section1">
+        <div class="part1">
+        <img id="main_logo" src="logo.webp" alt="website-logo">
+        <div class="logo-line">
+            <p id="upper">WellNest</p>
+          <p id="lower">Finding solutions infinity</p>
+        </div>
+        </div>
+
+        <div class="part2">
+            <nav>
+                <ul>
+                    
+                    <li><a href="home.html">HOME</a></li>
+                    <!-- <li><a href="about.html">ABOUT</a></li> -->
+                    <!-- <li><a href="Issueswesolve.html">ISSUES WE SOLVE</a></li> -->
+                     <li class="dropdown">
+                        <a href="Issueswesolve.html"  class="underline">ISSUES WE SOLVE</a>
+                        <div class="dropdown-content">
+                            <a href="issue1.html">Facilities for disabled</a>
+                            <a href="issue2.html">Superlinks</a>
+                            <!-- <a href="issue3.html">Issue 3</a> -->
+                        </div>
+                    </li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                     <li><a href="feedback.html">FEEDBACK</a></li>
+                    <!-- <li><a href="blog.html">BLOG</a></li> -->
+                    <li><a href="login.html">LOG IN</a></li>
+                    <li><button id="toggleButton" class="btn-tog"><i class="fas fa-moon"></i></button></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+
+    <!--links-->
+    <div class="row1">
+        <div class="codeRit">
+            <div >
+                <img class="cod-logo" src="code.png" alt="code-rit">
+            </div>
+            <div class="cod-abt">
+                <a href="https://www.instagram.com/code_rit/" >Code RIT</a>
+            </div>
+           
+        </div>
+<!--ieee-->
+        <div class="codeRit">
+            <div >
+                <img class="cod-logo" src="ieee.png" alt="code-rit">
+            </div>
+            <div class="cod-abt">
+                <a href="https://www.instagram.com/ieeeritb/" >IEEE</a>
+            </div>
+           
+        </div>
+
+        <!--star dust-->
+
+<div class="codeRit">
+            <div >
+                <img class="cod-logo" src="star.jpg" alt="code-rit">
+            </div>
+            <div class="cod-abt">
+                <a href="https://www.instagram.com/rit_stardust/" >S.T.A.R.D.U.S.T</a>
+            </div>
+           
+        </div>
+
+    </div>
+
+<!--Row 2-->
+    <div class="row1">
+        <div class="codeRit">
+            <div >
+                <img class="cod-logo" src="deca.jpg" alt="code-rit">
+            </div>
+            <div class="cod-abt">
+                <a href="https://www.instagram.com/decamsrit/" >DECA</a>
+            </div>
+           
+        </div>
+<!--lasya-->
+        <div class="codeRit">
+            <div >
+                <img class="cod-logo" src="lasya.jpg" alt="code-rit">
+            </div>
+            <div class="cod-abt">
+                <a href="https://www.instagram.com/lasya_msrit/" >LASYA</a>
+            </div>
+           
+        </div>
+
+        <!--Ecell-->
+        <div class="codeRit">
+            <div >
+                <img class="cod-logo" src="ecell.jpg" alt="code-rit">
+            </div>
+            <div class="cod-abt">
+                <a href="https://www.instagram.com/ecell_ramaiah/" >Ecell</a>
+            </div>
+           
+        </div>
+    </div>
+
+<!--row3-->
+    <div class="row1">
+        <div class="codeRit">
+            <div >
+                <img class="cod-logo" src="music.jpg" alt="code-rit">
+            </div>
+            <div class="cod-abt">
+                <a href="https://www.instagram.com/music_team.rit/" >MUSIC Team</a>
+            </div>
+           
+        </div>
+
+        <div class="codeRit">
+            <div >
+                <img class="cod-logo" src="rit.webp" alt="code-rit">
+            </div>
+            <div class="cod-abt">
+                <a href="https://www.instagram.com/rit.news/" >RIT News</a>
+            </div>
+           
+        </div>
+
+
+        <div class="codeRit">
+            <div >
+                <img class="cod-logo" src="deb.jpg" alt="code-rit">
+            </div>
+            <div class="cod-abt">
+                <a href="https://www.instagram.com/msrit.debsoc/?hl=en" >DEBSOC</a>
+            </div>
+           
+        </div>
+    </div>
+    <br><br>
+
+
+
+    <!--section6-->
+    <div class="section6">
+        <p>Connect with us...</p>
+        <br>
+
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-youtube"></i>
+        <i class="fa-brands fa-linkedin"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <br>
+        <div class="copy"><p>Copyright <i class="fa-solid fa-copyright"></i> 2024</p></div>
+    </div>
+    
+ <script>
+    document.getElementById('toggleButton').addEventListener('click', function() {
+    document.body.classList.toggle('dark-mode');
+    const icon = this.querySelector('i');
+    if (document.body.classList.contains('dark-mode')) {
+        icon.classList.remove('fa-moon');
+        icon.classList.add('fa-sun');
+    } else {
+        icon.classList.remove('fa-sun');
+        icon.classList.add('fa-moon');
+    }
+});
+ </script>
+    
+</body>
+</html>
